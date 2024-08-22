@@ -84,7 +84,7 @@ function FeaturedCourses() {
                 </div>
             </div>
 
-            <div className="flex justify-center mt-6">
+            <div className="flex justify-center py-6">
                 <Link href={'/courses'}>
                     <button className='px-4 py-1.5 text-black bg-white font-semibold tracking-tight hover:bg-white/85'>
                         View All Courses
