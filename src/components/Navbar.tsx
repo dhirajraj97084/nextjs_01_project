@@ -9,7 +9,7 @@ function Navbar({ className }: { className?: string }) {
   return (
     <div>
        <div
-      className={cn("fixed inset-x-0 max-w-2xl sm:top-5 mx-auto z-50", className)}
+      className={cn("fixed inset-x-0 max-w-3xl sm:top-5 mx-auto z-50", className)}
     >
       <Menu setActive={setActive}>
       <Link href={'/'}>
@@ -38,11 +38,11 @@ function Navbar({ className }: { className?: string }) {
           </div>
         </MenuItem>
         <Link href={'/about'}>
-         <MenuItem setActive={setActive} active={active} item="About Us">          
+         <MenuItem setActive={setActive} active={active} item="About">          
         </MenuItem>
       </Link>
         <Link href={'/contact'}>
-         <MenuItem setActive={setActive} active={active} item="Contact Us">          
+         <MenuItem setActive={setActive} active={active} item="Contact ">          
         </MenuItem>
       </Link>
       </Menu>
