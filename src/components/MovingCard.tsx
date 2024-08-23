@@ -38,8 +38,8 @@ const testimonials = [
 
 function MovingCard() {
   return (
-    <div>
-      <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <div className="dark:bg-black bg-white  dark:bg-grid-white/[0.1] bg-grid-black/[0.6] ">
+      <div className="md:h-[40rem] h-[30rem] rounded-md flex   flex-col antialiased  items-center justify-center relative overflow-hidden">
       <InfiniteMovingCards
         items={testimonials}
         direction="right"

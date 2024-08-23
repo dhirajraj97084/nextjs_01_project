@@ -1,7 +1,11 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import HoverCards from "@/components/HoverCards";
+import Instuction from "@/components/Instuction";
 import MovingCard from "@/components/MovingCard";
 import ScrollContent from "@/components/ScrollContent";
+
+
 
 
 export default function Home() {
@@ -12,6 +16,8 @@ export default function Home() {
         <FeaturedCourses/>
        <ScrollContent/>
        <MovingCard/>
+       <HoverCards/>
+      <Instuction/>
       </div>
     </main>
   );
