@@ -17,31 +17,34 @@ function Navbar({ className }: { className?: string }) {
           
         </MenuItem>
       </Link>
-        <MenuItem setActive={setActive} active={active} item="Services">
+        <MenuItem setActive={setActive} active={active} item="All Projecs">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
+            <HoveredLink href="/htmlpro">In HTML</HoveredLink>
+            <HoveredLink href="/html&csspro">In HTML & CSS</HoveredLink>
+            <HoveredLink href="/reactpro">In React & Tailwindcss</HoveredLink>
+            <HoveredLink href="/mernpro">In MERN STACK</HoveredLink>
+            <HoveredLink href="/nextpro">In NEXT JS</HoveredLink>
           </div>
         </MenuItem>
         
-        <MenuItem setActive={setActive} active={active} item="Products">
+        <MenuItem setActive={setActive} active={active} item="Skills">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
+            <HoveredLink href="/html">HTML</HoveredLink>
+            <HoveredLink href="/css">CSS</HoveredLink>
+            <HoveredLink href="/js">JAVASCRIPTS</HoveredLink>
+            <HoveredLink href="/tailwind">TAILWINDCSS</HoveredLink>
+            <HoveredLink href="/fullstack">MERN STACK</HoveredLink>
+            <HoveredLink href="/nextjs">NEXT JS</HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Pricing">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
-          </div>
+        <Link href={'/about'}>
+         <MenuItem setActive={setActive} active={active} item="About Us">          
         </MenuItem>
+      </Link>
+        <Link href={'/contact'}>
+         <MenuItem setActive={setActive} active={active} item="Contact Us">          
+        </MenuItem>
+      </Link>
       </Menu>
     </div>
     </div>
