@@ -46,7 +46,7 @@ const content = [
       //   <img src="https://img.freepik.com/free-vector/website-setup-concept-landing-page_52683-26187.jpg?ga=GA1.1.672306854.1705143941&semt=ais_hybrid" alt="" />
       // </div>
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-        Collaborative Editing
+        Collaborative Editin
       </div>
     ),
   },
