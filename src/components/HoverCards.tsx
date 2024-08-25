@@ -49,7 +49,7 @@ function HoverCards() {
             <div className="main bg-gray-600">
                 <div className="div">
                     <div className="pt-10 text-center">
-                        <h1 className='text-base text-teal-600 font-semibold tracking-wide'>FEATURED COURSES</h1>
+                        <h1 className='text-base text-teal-600 font-semibold tracking-wide'>SOME PROJECTS</h1>
                         <p className='text-3xl sm:text-4xl font-extrabold leading-8 tracking-tight mt-2 text-white'>
                             Learn With Best
                         </p>

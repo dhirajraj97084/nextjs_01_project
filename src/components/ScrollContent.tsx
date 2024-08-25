@@ -5,48 +5,47 @@ import Image from "next/image";
 
 const content = [
   {
-    title: "Collaborative Editing",
+    title: "Responsive Design",
     description:
-      "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+      "Crafting layouts that adapt seamlessly to any device, ensuring a consistent and enjoyable user experience.",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Collaborative Editing
+      // <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+      //   Collaborative Editing
+      // </div>
+      <div className="img">
+        <img src="https://img.freepik.com/free-vector/colorful-web-design-concept-with-flat-design_23-2147945601.jpg?ga=GA1.1.672306854.1705143941&semt=ais_hybrid" alt="" />
       </div>
     ),
   },
   {
-    title: "Real time changes",
+    title: "Interactive UI/UX",
     description:
-      "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+      "Implementing intuitive and engaging interfaces that enhance user interaction and satisfaction.",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
-        <Image
-          src="/linear.webp"
-          width={300}
-          height={300}
-          className="h-full w-full object-cover"
-          alt="linear board demo"
-        />
+        <div className="img">
+          <img src="https://img.freepik.com/premium-photo/professional-branding-image-corporate-identity_1199394-107996.jpg?ga=GA1.1.672306854.1705143941&semt=ais_hybrid" alt="" />
+        </div>
       </div>
     ),
   },
   {
-    title: "Version control",
+    title: "Performance Optimization",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "Focusing on fast load times and smooth performance to keep users engaged and content.",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-        Version control
+      <div className="img">
+        <img src="https://img.freepik.com/free-vector/website-setup-concept-landing-page_52683-26187.jpg?ga=GA1.1.672306854.1705143941&semt=ais_hybrid" alt="" />
       </div>
     ),
   },
   {
-    title: "Running out of content",
+    title: "Accessibility",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "Building accessible websites that cater to all users, including those with disabilities, following best practices and guidelines",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Running out of content
+      <div className="img">
+        <img src="https://img.freepik.com/free-photo/website-design-content-layout-graphic_53876-21203.jpg?ga=GA1.1.672306854.1705143941&semt=ais_hybrid" alt="" />
       </div>
     ),
   },
@@ -56,8 +55,13 @@ function ScrollContent() {
   return (
     <div>
       <div className="p-10">
-      <StickyScroll content={content} />
-    </div>
+        <div className="pt-10 text-center">
+          <p className='text-3xl sm:text-4xl font-bold leading-8 tracking-tight mt-2 text-white'>
+            WHAT I DO ?
+          </p>
+        </div>
+        <StickyScroll content={content} />
+      </div>
     </div>
   )
 }
