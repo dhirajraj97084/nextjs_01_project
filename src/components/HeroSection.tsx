@@ -18,7 +18,7 @@ function HeroSection() {
            HII , I'M DHIRAJ KUMER TIWARI.
           </h1>
           <p className="mt-4 font-normal text-base text-neutral-300 max-w-3xl text-center mx-auto">
-          Welcome to my portfolio! I specialize in creating visually appealing, responsive, and user-friendly websites that deliver exceptional user experiences. With a passion for coding and a keen eye for design, I turn ideas into interactive, accessible, and engaging web applications.
+          Welcome to my portfolio! I specialize in creating visually appealing, responsive, and user-friendly websites that deliver exceptional user experiences. With a passion for coding and a keen eye for design, I turn ideas into interactive, accessible,&apos; and engaging&apos; web applications.
           </p>
           <div className=' flex justify-center items-center pt-5 md:pt-10'>
             <Link href={'/explore'}>
