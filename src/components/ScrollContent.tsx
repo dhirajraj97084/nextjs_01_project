@@ -1,6 +1,7 @@
 "use client";
 import React from 'react'
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
+import Image from "next/image";
 
 
 const content = [
@@ -26,9 +27,13 @@ const content = [
         {/* <div className="img">
           <img src="https://img.freepik.com/premium-photo/professional-branding-image-corporate-identity_1199394-107996.jpg?ga=GA1.1.672306854.1705143941&semt=ais_hybrid" alt="" />
         </div> */}
-         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Collaborative Editing
-      </div>
+         <Image
+          src="/linear.webp"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
       </div>
     ),
   },
@@ -40,7 +45,7 @@ const content = [
       // <div className="img">
       //   <img src="https://img.freepik.com/free-vector/website-setup-concept-landing-page_52683-26187.jpg?ga=GA1.1.672306854.1705143941&semt=ais_hybrid" alt="" />
       // </div>
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--blue-500),var(--green-500))] flex items-center justify-center text-white">
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
         Collaborative Editing
       </div>
     ),
