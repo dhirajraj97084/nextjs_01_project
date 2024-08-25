@@ -10,7 +10,7 @@ const content = [
       "Crafting layouts that adapt seamlessly to any device, ensuring a consistent and enjoyable user experience.",
     content: (
       <div className="h-full w-full bg-gradient-to-br from-cyan-500 to-emerald-500 flex items-center justify-center text-white">
-        Collaborative Editing
+        Collaborative Editings
       </div>
     ),
   },
