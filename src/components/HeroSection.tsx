@@ -48,6 +48,19 @@ function HeroSection() {
             Welcome to my portfolio! I specialize in creating visually appealing, responsive, and user-friendly websites that deliver exceptional user experiences. With a passion for coding and a keen eye for design, I turn ideas into interactive, accessible, and engaging web applications. I don&apos;t know why but I&apos;m running out of
             copy.
           </p>
+          <div className=' flex justify-center items-center pt-5 md:pt-10'>
+            <Link href={'/explore'}>
+              <Button
+                borderRadius="1.75rem"
+                className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+              >
+                About Me..
+              </Button>
+              <div>
+
+              </div>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
