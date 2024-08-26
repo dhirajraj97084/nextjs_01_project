@@ -36,11 +36,7 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/fullstack">MERN STACK</HoveredLink>
             <HoveredLink href="/nextjs">NEXT JS</HoveredLink>
           </div>
-        </MenuItem>
-        <Link href={'/about'}>
-         <MenuItem setActive={setActive} active={active} item="About">          
-        </MenuItem>
-      </Link>
+        </MenuItem>       
         <Link href={'/contact'}>
          <MenuItem setActive={setActive} active={active} item="Contact ">          
         </MenuItem>
