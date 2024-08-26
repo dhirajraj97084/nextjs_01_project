@@ -3,7 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import HoverCards from "@/components/HoverCards";
 import Instuction from "@/components/Instuction";
 import MovingCard from "@/components/MovingCard";
-import ScrollContent from "@/components/ScrollContent";
+// import ScrollContent from "@/components/ScrollContent";
 
 
 
@@ -14,10 +14,10 @@ export default function Home() {
       <div className="div">
         <HeroSection/>
         <FeaturedCourses/>
-       <ScrollContent/>
+       {/* <ScrollContent/> */}
        <MovingCard/>
        <HoverCards/>
-      <Instuction/>
+       <Instuction/>
       </div>
     </main>
   );
