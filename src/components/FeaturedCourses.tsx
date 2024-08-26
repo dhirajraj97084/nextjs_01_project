@@ -47,7 +47,7 @@ function FeaturedCourses() {
         <div className="main bg-gray-800">
             <div className="pt-10 text-center">
                 <h1 className='text-base text-teal-600 font-semibold tracking-wide'>SOME PROJECTS</h1>
-                <p className='text-3xl sm:text-4xl font-extrabold leading-8 tracking-tight mt-2 text-white'>
+                <p className='text-2xl sm:text-3xl font-extrabold leading-8 tracking-tight mt-2 text-white'>
                     FULLY RESPONSIVE PROJECTS
                 </p>
             </div>
